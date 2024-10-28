@@ -29,8 +29,6 @@ void main()
   cout << "Matrix c = a + b" << endl << c << endl;
 
   TMatrix<int> m1(5), m2(5);
-  m1.init_m(0);
-  m2.init_m(0);
   m1[0][0] = 10;
   m2[0][0] = 5;
   TMatrix<int> res = m1 - m2;
